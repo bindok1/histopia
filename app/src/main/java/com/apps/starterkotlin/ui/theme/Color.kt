@@ -2,10 +2,23 @@ package com.apps.starterkotlin.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Brand Colors
+val Primary = Color(0xFF0B57D0)
+val Secondary = Color(0xFF4285F4)
+val Tertiary = Color(0xFF00A67E)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Neutral Colors
+val Background = Color(0xFFFAFAFA)
+val Surface = Color(0xFFFFFFFF)
+val SurfaceVariant = Color(0xFFF2F2F2)
+
+// Text Colors
+val TextPrimary = Color(0xFF1F1F1F)
+val TextSecondary = Color(0xFF5F6368)
+val TextDisabled = Color(0xFFBDC1C6)
+
+// Status Colors
+val Success = Color(0xFF0F9D58)
+val Error = Color(0xFFDB4437)
+val Warning = Color(0xFFF4B400)
+val Info = Color(0xFF4285F4)
