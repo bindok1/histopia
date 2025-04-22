@@ -9,6 +9,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.apps.starterkotlin.common.bottomNavBar.BottomBar
 import com.apps.starterkotlin.common.bottomNavBar.BottomBarScreen
+import com.apps.starterkotlin.common.navigation.NavigationGraph
 import com.apps.starterkotlin.features.home.page.HomeScreen
 import com.apps.starterkotlin.features.profile.page.ProfileScreen
 
@@ -20,17 +21,6 @@ fun MainScreen() {
         BottomBar(navController = navController)
     }
     ) { paddingValues ->
-        NavHost(
-            navController = navController,
-            startDestination = BottomBarScreen.Home.route,
-            modifier = Modifier.padding(paddingValues)
-        ) {
-            composable(BottomBarScreen.Home.route) {
-                HomeScreen()
-            }
-            composable(BottomBarScreen.Profile.route) {
-                ProfileScreen()
-            }
-        }
+        NavigationGraph(navController = navController)
     }
 }
