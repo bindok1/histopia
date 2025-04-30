@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.apps.starterkotlin"
+    namespace = "com.apps.histopia"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.apps.starterkotlin"
+        applicationId = "com.apps.histopia"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -48,6 +48,7 @@ android {
 dependencies {
     implementation(libs.androidx.compose.ui.text.googlefonts)
     implementation(libs.hilt.android)
+    implementation(libs.iconsax)
     ksp(libs.hilt.compiler)
     implementation(libs.retrofit.kotlinx)
     implementation(libs.retrofit.core)

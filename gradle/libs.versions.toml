@@ -1,6 +1,7 @@
 [versions]
 retrofit = "2.11.0"
 hilt = "2.56.1"
+iconsax = "1.0.0"
 okhttp = "4.12.0"
 agp = "8.9.1"
 kotlin-serialization = "1.6.3"
@@ -22,6 +23,7 @@ generativeai = "0.9.0"
 googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
 
 [libraries]
+iconsax = { module = "io.github.being-eyram:iconsax-android", version.ref ="iconsax" }
 androidx-compose-ui-text-googlefonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "compose-ui" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }

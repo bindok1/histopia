@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BasicStarterKotlin"
+rootProject.name = "Histopia"
 include(":app")
  

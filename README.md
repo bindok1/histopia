@@ -1,6 +1,6 @@
-# Basic Starter Kotlin Android Project
+# Histopia - Educational Android App With Nft Intelekual Property
 
-A modern Android starter project implemented in Kotlin using latest Android development best practices and patterns.
+A modern educational Android application implemented in Kotlin using latest Android development best practices and patterns.
 
 ## 🌟 Features
 
@@ -12,6 +12,8 @@ A modern Android starter project implemented in Kotlin using latest Android deve
 - Error Handling Implementation
 - Navigation Components
 - MVVM Architecture Pattern
+- Custom Theming Support
+- Educational Content Management
 
 ## 🛠 Tech Stack
 
@@ -23,12 +25,11 @@ A modern Android starter project implemented in Kotlin using latest Android deve
 - **Build System:** Gradle with Kotlin DSL
 - **Version Catalog:** Using libs.versions.toml
 
-
 ## 🚀 Getting Started
 
 1. Clone the repository
 ```bash
-git clone https://github.com/bindok1/BasicStarterKotlin.git
+git clone https://github.com/bindok1/Histopia.git
 ```
 
 2. Open the project in Android Studio
@@ -42,6 +43,10 @@ This project follows Clean Architecture principles and is organized into the fol
 - **Presentation Layer:** Contains UI components and ViewModels
 - **Domain Layer:** Contains business logic and use cases
 - **Data Layer:** Handles data operations and repository implementations
+
+## 💡 About Histopia
+
+Histopia is an educational platform designed to deliver historical knowledge through an interactive and engaging mobile application. The project aims to combine educational content with modern mobile development practices.
 
 ## 🤝 Contributing
 
@@ -58,6 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [https://x.com/nio_zihni)
+Developer - [@nio_zihni](https://x.com/nio_zihni)
 
-Project Link: [https://github.com/bindok1/BasicStarterKotlin](https://github.com/bindok1/BasicStarterKotlin)
+Project Link: [https://github.com/bindok1/Histopia](https://github.com/bindok1/Histopia)
