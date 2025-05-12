@@ -1,4 +1,4 @@
-package com.apps.histopia.features.main_screen
+package com.apps.histopia.architecture.features.main_screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

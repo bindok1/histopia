@@ -1,3 +1,5 @@
+import com.android.build.api.dsl.Packaging
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -13,14 +15,20 @@ android {
     namespace = "com.apps.histopia"
     compileSdk = 35
 
+
     defaultConfig {
         applicationId = "com.apps.histopia"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    packaging {
+        resources {
+            excludes.add("META-INF/versions/9/OSGI-INF/MANIFEST.MF")
+        }
     }
 
     buildTypes {
@@ -46,8 +54,13 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.androidx.datastore.preferences)
     implementation(libs.androidx.compose.ui.text.googlefonts)
     implementation(libs.hilt.android)
+    implementation(platform(libs.reown.bom))
+    implementation(libs.reown.core)
+    implementation(libs.reown.appkit)
     implementation(libs.iconsax)
     ksp(libs.hilt.compiler)
     implementation(libs.retrofit.kotlinx)

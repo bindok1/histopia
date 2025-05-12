@@ -7,9 +7,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.apps.histopia.common.bottomNavBar.BottomBarScreen
-import com.apps.histopia.features.home.page.HomeScreen
-import com.apps.histopia.features.love.page.LoveScreen
-import com.apps.histopia.features.profile.page.ProfileScreen
+import com.apps.histopia.architecture.features.page.Home.HomeScreen
+import com.apps.histopia.architecture.features.page.LoveScreen
+import com.apps.histopia.architecture.features.page.ProfileScreen
 
 @Composable
 fun NavigationGraph(navController: NavHostController) {
