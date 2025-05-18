@@ -1,19 +1,27 @@
-# Histopia - Educational Android App With Nft Intelekual Property
+# Histopia - Your Web3 Lifestyle Savings Companion
 
-A modern educational Android application implemented in Kotlin using latest Android development best practices and patterns.
+A modern Android application that revolutionizes your savings experience through blockchain technology and Trust Wallet integration.
 
 ## 🌟 Features
 
-- Modern Android Development with Kotlin
-- Clean Architecture implementation
-- Jetpack Compose UI
-- Dependency Injection with Dagger Hilt
-- Network Layer Setup with Retrofit
-- Error Handling Implementation
-- Navigation Components
-- MVVM Architecture Pattern
-- Custom Theming Support
-- Educational Content Management
+- Seamless Trust Wallet Integration
+- Smart Savings Management
+- Secure Blockchain Transactions
+- Real-time Balance Tracking
+- Goal-based Savings Plans
+- Transaction History
+- Modern UI/UX Design
+- Multi-wallet Support
+- Personalized Savings Analytics
+
+## 🎯 Why Histopia?
+
+Histopia transforms your savings habits by leveraging blockchain technology:
+- **Secure**: Your funds are protected through Trust Wallet's security
+- **Transparent**: Track every transaction on the blockchain
+- **Efficient**: Quick and low-cost transactions
+- **Goal-oriented**: Set and track your savings goals
+- **User-friendly**: Modern interface for easy navigation
 
 ## 🛠 Tech Stack
 
@@ -21,7 +29,7 @@ A modern educational Android application implemented in Kotlin using latest Andr
 - **UI Framework:** Jetpack Compose
 - **Architecture:** MVVM (Model-View-ViewModel)
 - **Dependency Injection:** Dagger Hilt
-- **Networking:** Retrofit
+- **Blockchain Integration:** Trust Wallet SDK
 - **Build System:** Gradle with Kotlin DSL
 - **Version Catalog:** Using libs.versions.toml
 
@@ -38,24 +46,30 @@ git clone https://github.com/bindok1/Histopia.git
 
 ## 🏗 Architecture
 
-This project follows Clean Architecture principles and is organized into the following layers:
+The application follows Clean Architecture principles with:
+- **Presentation Layer:** Modern UI components with Jetpack Compose
+- **Domain Layer:** Savings management and blockchain logic
+- **Data Layer:** Wallet integration and transaction handling
 
-- **Presentation Layer:** Contains UI components and ViewModels
-- **Domain Layer:** Contains business logic and use cases
-- **Data Layer:** Handles data operations and repository implementations
+## 💰 Key Functions
 
-## 💡 About Histopia
-
-Histopia is an educational platform designed to deliver historical knowledge through an interactive and engaging mobile application. The project aims to combine educational content with modern mobile development practices.
+- Connect multiple wallets
+- Set savings goals
+- Track spending patterns
+- Schedule regular savings
+- Monitor investment growth
+- Secure transaction history
+- Real-time market updates
+- Custom savings categories
 
 ## 🤝 Contributing
 
-Feel free to contribute to this project by:
-1. Forking the repository
-2. Creating your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Committing your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Pushing to the branch (`git push origin feature/AmazingFeature`)
-5. Opening a Pull Request
+We welcome contributions! Here's how:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📝 License
 

@@ -1,4 +1,4 @@
-package com.apps.histopia.features.love.page
+package com.apps.histopia.architecture.features.page
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
