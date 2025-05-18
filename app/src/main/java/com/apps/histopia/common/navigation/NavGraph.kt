@@ -10,6 +10,7 @@ import com.apps.histopia.common.bottomNavBar.BottomBarScreen
 import com.apps.histopia.architecture.features.page.Home.HomeScreen
 import com.apps.histopia.architecture.features.page.LoveScreen
 import com.apps.histopia.architecture.features.page.ProfileScreen
+import com.reown.appkit.ui.appKitGraph
 
 @Composable
 fun NavigationGraph(navController: NavHostController) {
@@ -19,7 +20,7 @@ fun NavigationGraph(navController: NavHostController) {
         modifier = Modifier
     ) {
         composable(BottomBarScreen.Home.route) {
-            HomeScreen()
+            HomeScreen(navController = navController)
         }
         composable(BottomBarScreen.Profile.route) {
             ProfileScreen()
@@ -27,5 +28,6 @@ fun NavigationGraph(navController: NavHostController) {
         composable(BottomBarScreen.Love.route) {
             LoveScreen()
         }
+        appKitGraph(navController)
     }
 }
